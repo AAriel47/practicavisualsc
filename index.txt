@@ -1,0 +1,14 @@
+<!Doctype html>
+<html lang="es">
+<head>
+  <meta chartset="utf-8">
+  <title>Primer web</title>
+</head>
+<body>
+<script>
+  function cambiarcolor() {document.body.style.backgroundcolor="red";}
+  document.addeventlistener("click", cambiarcolor);
+</script>
+<p>hola</p>
+</body>
+</html>
